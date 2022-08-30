@@ -48,12 +48,12 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.4.5",
-    "@react-native-async-storage/async-storage": "^1.13.0",
+    "@react-native-async-storage/async-storage": "1.17.7",
     "js-base64": "github:vmurin/js-base64",
     "url": "^0.11.0"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-native": ">=0.57.0"
+    "react": "17.0.2",
+    "react-native": "0.68.2"
   }
 }
