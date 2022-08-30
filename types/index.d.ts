@@ -314,7 +314,7 @@ declare class WebAuth {
    * @param {Object} options parameters to send
    * @param {Boolean} [options.closeOnLoad] close browser window on 'Loaded' event (works only on iOS)
    */
-  clearSession(options?: { closeOnLoad: boolean }): Promise<void>;
+   clearSession(options?: { ephemeralSession: boolean, closeOnLoad: boolean }): Promise<void>;
 }
 
 declare class AzureAuth {
